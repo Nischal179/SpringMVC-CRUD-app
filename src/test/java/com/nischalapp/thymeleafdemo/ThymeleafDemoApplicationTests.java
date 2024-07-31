@@ -1,10 +1,10 @@
-package com.nischalapp.cruddemo;
+package com.nischalapp.thymeleafdemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CruddemoApplicationTests {
+class ThymeleafDemoApplicationTests {
 
 	@Test
 	void contextLoads() {
