@@ -23,13 +23,22 @@
             <th>First Name</th>
             <th>Last Name</th>
             <th>Email</th>
+            <th>Action</th>
         </tr>
         </thead>
         <tbody>
+
         <tr th:each = "tempEmployees : ${employees}">
             <td th:text = "${tempEmployees.firstName}"></td>
             <td th:text = "${tempEmployees.lastName}"></td>
             <td th:text = "${tempEmployees.email}"></td>
+<!--            Add update button LInk -->
+            <td>
+                <a th:href="@{/employees/showFormForUpdate(employeeId = ${tempEmployees.id})}"
+                class="btn btn-info btn-sm">
+                    Update
+                </a>
+            </td>
         </tr>
         </tbody>
     </table>
