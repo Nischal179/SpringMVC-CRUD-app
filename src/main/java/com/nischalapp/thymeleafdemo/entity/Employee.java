@@ -1,4 +1,4 @@
-package com.nischalapp.cruddemo.entity;
+package com.nischalapp.thymeleafdemo.entity;
 
 import jakarta.persistence.*;
 

@@ -1,7 +1,7 @@
-package com.nischalapp.cruddemo.controller;
+package com.nischalapp.thymeleafdemo.controller;
 
-import com.nischalapp.cruddemo.entity.Employee;
-import com.nischalapp.cruddemo.service.EmployeeService;
+import com.nischalapp.thymeleafdemo.entity.Employee;
+import com.nischalapp.thymeleafdemo.service.EmployeeService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

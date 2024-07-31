@@ -1,6 +1,6 @@
-package com.nischalapp.cruddemo.service;
+package com.nischalapp.thymeleafdemo.service;
 
-import com.nischalapp.cruddemo.entity.Employee;
+import com.nischalapp.thymeleafdemo.entity.Employee;
 
 import java.util.List;
 

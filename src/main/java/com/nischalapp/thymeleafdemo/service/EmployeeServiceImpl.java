@@ -1,7 +1,7 @@
-package com.nischalapp.cruddemo.service;
+package com.nischalapp.thymeleafdemo.service;
 
-import com.nischalapp.cruddemo.entity.Employee;
-import com.nischalapp.cruddemo.repository.EmployeeRepository;
+import com.nischalapp.thymeleafdemo.entity.Employee;
+import com.nischalapp.thymeleafdemo.repository.EmployeeRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
